@@ -18,4 +18,9 @@ public class SticklerThief {
         dp[i] = ans;
         return ans;
     }
+    // USING TABULATION
+    static void main() {
+        int[] arr = {6,10,1,2,15};
+
+    }
 }

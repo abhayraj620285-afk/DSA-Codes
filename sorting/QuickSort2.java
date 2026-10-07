@@ -12,9 +12,9 @@ public class QuickSort2 {
     }
     public static void sort(int[] arr,int srt,int end){
         if(srt>=end) return;
-        int partion =  partitioning(arr,srt,end);
-        sort(arr,srt,partion-1);
-        sort(arr,partion+1,end);
+        int partition =  partitioning(arr,srt,end);
+        sort(arr,srt,partition-1);
+        sort(arr,partition+1,end);
     }
 
     private static int partitioning(int[] arr, int srt, int end) {
@@ -32,6 +32,7 @@ public class QuickSort2 {
         arr[pivotIdx] = arr[end];
         arr[end] = temp;
         return pivotIdx;
+
     }
 
 }
