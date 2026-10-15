@@ -4,7 +4,7 @@ public class MergeSort {
 
     static void printarray(int[] arr){
         for(int val : arr){
-            System.out.println(val);
+            System.out.print(val+" ");
         }
     }
 
@@ -51,7 +51,7 @@ public class MergeSort {
 
 
     public static void main(String[] args) {
-        int[] arr = {4, 20, 7, 2, 11, 8};
+        int[] arr = {5, 2, 8, 1, 3};
         int srt = 0;
         int end = arr.length-1;
         mergesort(arr,srt,end);
