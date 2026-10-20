@@ -1,6 +1,9 @@
 package OOPS;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.function.*;
 
@@ -60,9 +63,8 @@ public class java8 {
 
         students.forEach(System.out::println);
 
-
-
-
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+        Collections.swap(list,0,1);
 
 
 
